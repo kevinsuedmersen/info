@@ -102,3 +102,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+files/CVPicture.jpg
+files/Signature V1.png

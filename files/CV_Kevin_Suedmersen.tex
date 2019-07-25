@@ -1,0 +1,166 @@
+\documentclass{article}[12pt]
+\usepackage{titlesec}
+\usepackage{titling}
+\usepackage[left=1in, right=1in, top=1cm, bottom=1cm]{geometry}
+\usepackage{hyperref}
+\usepackage{parallel,enumitem}
+\usepackage{array}
+\usepackage{tabularx,booktabs}
+\usepackage{graphicx}
+\usepackage{lipsum}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[usenames, dvipsnames]{color}
+\usepackage{mathptmx}
+%\usepackage[11pt]{moresize}
+\usepackage{mathptmx}
+\usepackage{anyfontsize}
+\usepackage{t1enc}
+\usepackage{lmodern}
+\usepackage{eurosym}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+\titleformat{\section}[frame]{\Large}{}{0.25em}{\filcenter\bfseries}
+\titleformat{\subsection}{\large\bfseries}{\hspace{-0.1in}$\bullet$}{0.25em}{}
+\titleformat{\subsubsection}[runin]{\bfseries}{}{0em}{}[:]
+\titlespacing{\subsubsection}{0em}{0.5em}{0.25em}
+
+
+\begin{document}
+\pagenumbering{gobble}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{flushleft}
+\begin{minipage}{0.55\textwidth}
+\begin{flushleft}
+{\fontsize{40}{48} \selectfont Kevin S{\"u}dmersen}
+
+\noindent \large{Data Scientist}
+\end{flushleft}
+\end{minipage}
+\hfill
+\begin{minipage}{0.35\textwidth}
+\begin{flushright}
+\includegraphics[scale=0.07]{CVPicture}
+\end{flushright}
+\end{minipage}
+\end{flushleft}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Contact info
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Info}
+\textbf{Date and place of birth:} 8th January 1993 in Bad Oeynhausen, Germany
+
+\noindent \textbf{Address:} Stuttgarter Straße 68, 70469 Stuttgart, Germany 
+
+\noindent \textbf{Phone:} +4917650093621, \textbf{Email:} \href{mailto:kevinsuedmersen@gmail.com}{\color{blue}kevinsuedmersen@gmail.com}, \textbf{GitHub:} \href{https://github.com/kevinsuedmersen/}{\color{blue}github.com/kevinsuedmersen}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TECHNICAL SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Skills}
+{
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{p{0.15\textwidth} p{0.15\textwidth} p{0.62\textwidth}}
+\textbf{Skill} & \textbf{Skill level} & \textbf{Experience} \\
+\hline 
+Python & Intermediate-advanced & Constant use of Python on the job, mostly using libraries such as scikit-learn, keras, matplotlib, seaborn, numpy and pandas\\
+R & Intermediate & Empirical university projects (including MSc dissertation) implemented in R, experience with libraries such as dplyr, ggplot, keras, rpart, e1071\\  
+{\LaTeX} & Basic & E.g. MSc dissertation written in {\LaTeX} \\
+HTML & Basic & Used HTML to display reports of results \\
+MS Office & Intermediate & Continuous use of MS Excel, MS PowerPoint and MS Word
+\end{tabular}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WORKING EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Working Experience}
+\subsection{breos GmbH, Stuttgart, Germany
+\hfill
+(November 2018 - present)}
+\subsubsection{Company description} Breos GmbH provides business intelligence services using data visualization tools and Machine Learning models
+\subsubsection{Role} Data Scientist in the Artificial Intelligence team
+\subsubsection{Tasks} Development of in-house software to automate Machine Learning processes (e.g. implementation of a hyper-parameter tuning strategy and automatic reporting of results), analysing, implementing and testing current State Of The Art Machine Learning Algorithms, writing three blog posts for the company's website about Natural Language Processing models
+
+\subsection{STOXX Ltd., Frankfurt, Germany 
+\hfill
+(Apr. 2017 – Jun. 2017)}
+\subsubsection{Company description} STOXX Ltd. is a subsidiary of the Deutsche B\"orse AG and provides customized indices and iNAVs. One of the most prominent products of STOXX is the Deutsche Aktienindex (DAX) 
+\subsubsection{Role} Intern in the Business Architecture service line
+\subsubsection{Tasks} Assisting with the migration of an old IT system (XIS Web) to a new IT system (Linux) which is now being used to calculate the DAX, visualizing and modelling of percentage filtering used for iNAV calculations, documentation and communication of the index work-flow, setting up new iNAV projects, creation of Excel templates to speed up recurring tasks
+
+\subsection{Ernst \& Young, Berlin, Germany 
+\hfill
+(Sep. 2015 - Jan. 2016)}
+\subsubsection{Company description} Ernst \& Young (EY) is a business consulting company and in addition to auditing, EY also provides advisory services
+\subsubsection{Role} Intern in the M\&A, Transaction Support, Corporate Finance Strategy, Valuation \& Business Modelling service lines
+\subsubsection{Tasks} Finding potential investment targets, creating presentations, data books and peer groups, researching financial data, conducting quality checks, assisting with a market multiple valuation
+
+\subsection{Other working experience}
+\noindent Intern at the Next Media Accelerator
+\hfill
+(Jul. 2017 - Aug. 2017)
+
+\noindent Statistics tutor at Amsterdam University of Applied Sciences
+\hfill
+(Nov. 2013 - Jun. 2014)
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+\subsection{MSc\protect\footnote{Master of Science} in International \& Financial Economics 
+\hfill
+(Sep. 2017 - Sep. 2018)}
+\subsubsection{Where} University of Warwick, England
+\subsubsection{Subjects} Applications of Data Science, Mathematics and Statistics, Econometrics, Game Theory, Microeconomics, Macroeconomics, Monetary Economics
+\subsubsection{Grades} Graduated with \href{https://www.postgrad.com/advice/masters_programs/msc_degree_classification/}{\color{blue}merit}, \href{https://github.com/kevinsuedmersen/kevinsuedmersen.github.io/blob/master/files/MSc_degree_certificate_Kevin_Suedmersen.pdf}{\color{blue}MSc degree certificate with grades}
+\subsubsection{Dissertation} \href{https://github.com/kevinsuedmersen/kevinsuedmersen.github.io/blob/master/files/Dissertation_V50.pdf}{\color{blue}"Predicting  Bitcoin Prices - Can Machine Learning Algorithms Help?"} (with distinction)
+
+\subsection{Extra minor in International \& Monetary Economics 
+\hfill
+(Sep. 2016 - Feb. 2017)}
+\subsubsection{Where} University of Amsterdam, Netherlands
+\subsubsection{Subjects} Principles of Economics, Mathematics, Money and Banking, International Trade and Investment, Monetary and Fiscal Policy
+\subsubsection{Grades} \href{https://github.com/kevinsuedmersen/kevinsuedmersen.github.io/blob/master/files/UvA_Minor_Certificate_Kevin_S%C3%BCdmersen.pdf}{\color{blue} Minor certificate with grades}
+
+\subsection{BBA\protect\footnote{Bachelor of Business Administration} in International Business \& Management 
+\hfill
+(Sep. 2012 - Dec. 2016)} 
+\subsubsection{Where} University of Applied Sciences Amsterdam, Netherlands
+\subsubsection{Grades} \href{https://github.com/kevinsuedmersen/kevinsuedmersen.github.io/blob/master/files/BBA_degree_certificate_Kevin_Suedmersen.pdf}{\color{blue}BBA degree certificate with grades}
+\subsubsection{Standard period of study} 8 semesters due to internship and exchange semester
+\subsubsection{Exchange semester} Hanyang University, Seoul, Korea (February 2015 - June 2015)
+\subsubsection{Dissertation} "How to create a profitable business strategy selling Fairness Opinions"\footnote{A Fairness Opinion is an independent evaluation of a take-over offer}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% OTHER
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Other}
+
+\begin{minipage}{0.475\textwidth}
+
+\subsubsection{Entrepreneur} Founder and owner of Bootcamp Inc. (Apr. 2014 - Jun. 2015)\\
+
+\subsubsection{English language test certificates} IELTS test result in 2016: 7.5 out of 9, TOEFL test result in 2019: 100 out of 120\\
+
+\subsubsection{Languages} German (first language), English (\href{https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages}{\color{blue}level C2}), Dutch (\href{https://en.wikipedia.org/wiki/Common_European_Framework_of_Reference_for_Languages}{\color{blue}level C1}) \\
+
+\end{minipage}
+\hspace{0.04\textwidth}
+\begin{minipage}{0.475\textwidth}
+\subsubsection{Characteristics} Friendly, enthusiastic, disciplined, respectful, persisted, result-oriented \\
+
+\subsubsection{Sporting Achievements} Winner of the WAKO Dutch Open in light contact kick-boxing -79Kg in 2016, winner of the WAKO Dutch National Championships in light contact kick-boxing -75Kg in 2014 \\
+
+\subsubsection{Interests} Taekwondo (red belt), Karate, Kick-boxing, running, skiing, travelling
+ 
+\end{minipage}
+
+
+\end{document}
+
+

@@ -6,5 +6,6 @@ Here you can find some information about myself, such as my:
 - [MSc degree certificate with grades](https://github.com/kevinsuedmersen/kevinsuedmersen.github.io/blob/master/files/MSc_degree_certificate_Kevin_Suedmersen.pdf)
 - [UvA Minor certificate with grades](https://github.com/kevinsuedmersen/kevinsuedmersen.github.io/blob/master/files/UvA_Minor_Certificate_Kevin_S%C3%BCdmersen.pdf)
 - [BBA degree certificate with grades](https://github.com/kevinsuedmersen/kevinsuedmersen.github.io/blob/master/files/BBA_degree_certificate_Kevin_Suedmersen.pdf)
+- [1st MSc dissertation](https://github.com/kevinsuedmersen/kevinsuedmersen.github.io/blob/master/files/Dissertation_V50.pdf)
 
 If you have any questions, feel free to send me an email to: kevinsuedmersen@gmail.com

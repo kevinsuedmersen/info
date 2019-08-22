@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.19)  19 AUG 2019 22:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.8.19)  22 AUG 2019 14:27
 entering extended mode
 **./CV_Kevin_Suedmersen.tex
 (CV_Kevin_Suedmersen.tex
@@ -757,11 +757,6 @@ File: CVPicture.jpg Graphic file (type jpg)
 Package pdftex.def Info: CVPicture.jpg  used on input line 45.
 (pdftex.def)             Requested size: 55.31628pt x 82.97443pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
-[]|\T1/lmr/m/n/10 Intermediate-
- []
-
-
 Overfull \hbox (0.63374pt too wide) in paragraph at lines 66--76
 []  
  []
@@ -899,7 +894,7 @@ s/type1/public/lm/lmr7.pfb><C:/Users/kevin/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/lm/lmr8.pfb><C:/Users/kevin/AppData/Local/Programs/MiKTeX 2.9/
 fonts/type1/public/lm/lmr9.pfb><C:/Users/kevin/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on CV_Kevin_Suedmersen.pdf (2 pages, 1774764 bytes).
+Output written on CV_Kevin_Suedmersen.pdf (2 pages, 1774754 bytes).
 PDF statistics:
  241 PDF objects out of 1000 (max. 8388607)
  44 named destinations out of 1000 (max. 500000)

@@ -8,4 +8,4 @@ Here you can find some information about myself, such as my:
 - [BBA degree certificate with grades](https://github.com/kevinsuedmersen/kevinsuedmersen.github.io/blob/master/files/BBA_degree_certificate_Kevin_Suedmersen.pdf)
 - [1st MSc dissertation](https://github.com/kevinsuedmersen/kevinsuedmersen.github.io/blob/master/files/Dissertation_V50.pdf)
 
-If you have any questions, feel free to send me an email to: kevinsuedmersen@gmail.com
+Note: Hyperlinks on some documents are shown in blue. If you want to click on them and be redirected to the corresponding website, please download the document first. If you have any questions, feel free to send me an email to: kevinsuedmersen@gmail.com

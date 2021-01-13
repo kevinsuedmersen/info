@@ -1,9 +1,9 @@
 /.idea
-/files/CV_Kevin_Suedmersen.aux
-/files/CV_Kevin_Suedmersen.dvi
-/files/CV_Kevin_Suedmersen.out
-/files/CV_Kevin_Suedmersen.synctex.gz
-/files/CV_Kevin_Suedmersen
-/files/CVPic.png
-/files/CV_Kevin_Suedmersen.log
+*.aux
+*.dvi
+*.out
+*.gz
+*.png
+*.log
+*.bak
 /.tmp.drivedownload

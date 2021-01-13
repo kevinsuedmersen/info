@@ -1,5 +1,0 @@
-- explain different optimizers you can choose
-
-- For SVR, explain that finding the flattest function is desirable, because flat functions will generalize better than curvy functions that only fit the training data well
-
-- For SVR, explain how the constraints in (7) are derived
